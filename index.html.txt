@@ -1,0 +1,76 @@
+html
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>플랜비 영어학원</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>플랜비 영어학원</h1>
+        <p>초·중·고 전문 영어학습의 시작</p>
+    </header>
+    <nav>
+        <a href="#about">학원 소개</a>
+        <a href="#curriculum">커리큘럼</a>
+        <a href="#contact">문의</a>
+    </nav>
+    <section id="about">
+        <h2>학원 소개</h2>
+        <p>플랜비 영어학원은 학생 개개인에 맞춘 학습으로 영어 실력을 키워드립니다.</p>
+    </section>
+    <section id="curriculum">
+        <h2>커리큘럼</h2>
+        <p>초등부: 파닉스, 리딩<br>중등부: 내신 대비<br>고등부: 수능 영어 1등급</p>
+    </section>
+    <section id="contact">
+        <h2>문의</h2>
+        <p>연락처: 010-1234-5678<br>주소: 부산 정관신도시</p>
+    </section>
+    <footer>
+        <p>© 2025 플랜비 영어학원. All rights reserved.</p>
+    </footer>
+</body>
+</html>
